@@ -9,10 +9,11 @@
 <!-- link fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
-<!-- Link com css header e style  -->
+<!-- Link com css -->
    
-    <link rel="stylesheet" href="/css/header.css";>
+    <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" href="/css/home.css">
 
 <!-- script jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -20,12 +21,13 @@
 </head>
 
 <body>
-    <header>
+    <header>  <!--LOGO, BOTÃO, MENU-->
             <nav id="nav_bar">
             
                 <!-- logo burger -->
-                <i class="fa-solid fa-burger" id="nav_logo">FOOD</i>
-
+                
+                <i class="fa-solid fa-burger" id="nav_logo">FOOD</i>            
+        
                 <ul id="nav_list">
                     <li class="nav_list_item active">
 
@@ -86,6 +88,79 @@
 
 
     </header>
+
+    <main id="content">
+        
+        <section id="home"> <!--caught your attention | banner -->
+
+            <div class="shape"></div>
+
+            <div id="cta">
+
+                <h1 class="title">
+                    O sabor vai até
+                    <span>você!</span>
+                 </h1>
+
+                 <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veritatis ut quo, nemo sapiente delectus alias error cupiditate culpa et, expedita, eaque dicta amet sint. Quia consequuntur quis itaque obcaecati!
+                </p>
+
+                <div id="cta_buttons">
+
+                    <a href="#" class="button_default"> Ver Cardápio </a>
+                    
+                    <a href="tel:+5555555" id="phone_button">
+
+                        <button class="button_default">
+                            
+                            <i class="fa-solid fa-phone"></i>
+                            (79)9898-78676
+
+                        </button>     
+
+                    </a>
+
+                </div>
+
+                <div class="media_buttons">
+
+                    <a href="">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+
+                     <a href="">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                     <a href="">
+
+                        <i class="fa-brands fa-facebook"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div id="banner">
+
+                <image src="/assets/hero.png" alt=""></image>
+
+
+            </div>
+
+        </section>
+
+
+
+
+
+    </main>
 
     <script src="/js/scripts.js"></script>
     
