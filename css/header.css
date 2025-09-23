@@ -85,7 +85,8 @@ header{
         display: flex;
         flex-direction: column;
         gap: 12px;
-        margin: 12px 0 px;
+        margin: 12px 0px;
+        
             }
 
     #mobile_nav_list .nav_list_item {
