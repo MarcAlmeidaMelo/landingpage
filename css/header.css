@@ -4,6 +4,10 @@ header{
 
     padding:28px 8%;
     width:100%;
+    position: sticky;
+    top: 0;
+    background-color: #fff9ea;
+    z-index: 3;
 
 }
 
