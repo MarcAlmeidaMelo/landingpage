@@ -5,6 +5,22 @@
 @import url('testimonials.css');
 @import url('footer.css');
 
+:root{
+
+    --color-primary-1: #fff9ea;
+    --color-primery-2: #ffe8b4;
+    --color-primery-3: #f8d477;
+    --color-primery-4: #ffe100;
+    --color-primary-5: #ffcb45;
+    --color-primary-6: #e9a209;
+    
+    --color-neutral-0: #fff;
+    --color-neutral-1: #1d1d1d;
+
+
+
+}
+
 
 *{
     padding: 0;
@@ -16,7 +32,7 @@
 
 body {
 
-    background-color: #fff9ea;
+    background-color: var(--color-primary-1);
 
 }
 
@@ -31,7 +47,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffcb45;
+    background-color: var(--color-primary-5);
     border-radius:12px;
     padding: 10px 14px;
     font-weight:600;
@@ -43,7 +59,7 @@ section {
 
 .button_default:hover  {
 
-    background-color:#f8d477;
+    background-color:var(--color-primary-3);
 
 
 }
@@ -61,11 +77,11 @@ section {
     justify-content: center;
     width: 45px;
     height: 40px;
-    background-color: #fff;
+    background-color: var(--color-primary-2);
     font-size: 1.5rem;
     border-radius: 10px;
     text-decoration: none;
-    color: #1d1d1d;
+    color: var(--color-primary-2);
     box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
     transition: box-shadow .3s ease;
 }
@@ -77,7 +93,7 @@ section {
 
 .section-title {
 
-    color: #e9a209;
+    color: var(--color-primary-6);
     font-size: 1.563rem;
 }
 
